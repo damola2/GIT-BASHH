@@ -1,0 +1,88 @@
+@import url(./Icons/fontawesome-free-6.2.0-web/css/all.css);
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+@media (min-width:1200px) {
+  .fa-bars{
+    display: none;
+  }
+}
+@media (max-width:1200px) {
+    .hide{
+        display: none;
+    }
+    .fa-bars{
+        display: inherit;
+    }
+    .hide4{
+        display: none;
+    }
+    .hide7{
+        display: none;
+    }
+}
+.fa-bars:focus .barss{
+    display: block;
+}
+.fa-bars{
+    background-color: transparent;
+    border: none;
+}
+/* @media (max-width:1200px) {
+    .hide{
+        display: none;
+    }
+    .fa-bars{
+        display: inherit;
+    }
+    .hide4{
+        display: none;
+    }
+    .hide7{
+        display: none;
+    }
+    
+} */
+@media (max-width:958px) {
+    .hide2{
+        display: none;
+    }
+    .hide4{
+        display: inherit;
+    }
+    .hide4{
+        display: none;
+    }
+}
+@media (max-width:468px) {
+    .hide3{
+        display: none;
+    }
+    .hide7{
+        display: inherit;
+    }
+}
+
+.barss{
+    width: 30%;
+    height: 94vh;
+    background-color: white;
+    box-shadow: 0px 0px 2px black;
+    position: absolute;
+    left: 0px;
+    top: 60px;
+    display: none;
+}
+.barss div{
+    margin-top: 60px;
+}
